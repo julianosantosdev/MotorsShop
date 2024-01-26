@@ -13,7 +13,7 @@ export const StyledMain = styled.main`
     position: relative;
     overflow: hidden;
     color: var(--color-white-fixed);
-    background-image: url('https://images.pexels.com/photos/12960633/pexels-photo-12960633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-image: url('https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?cs=srgb&dl=road-car-vehicle-170811.jpg');
     background-size: cover;
     background-position: 53% 70%;
     background-repeat: no-repeat;
