@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'https://api-pm.onrender.com',
+  baseURL: 'https://humble-drop-production.up.railway.app',
   timeout: 5000
 });
 
