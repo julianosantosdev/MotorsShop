@@ -1,5 +1,8 @@
 # 🚙 PrimeMotors - Plataforma de anúncio de carros 🚙
 
+![image](https://github.com/julianosantosdev/MotorsShop/assets/110478861/9ce1ef41-bf43-4a99-974d-c6933eb5c7c5)
+
+
 🇧🇷
 O Motors Shop é uma plataforma de compra e venda de veículos seminovos, uma página totalmente responsiva, contendo integração entre backend e frontend, dessa forma, a aplicação disponibiliza ao usuário, diversas ações, como:
 - Cadastro de usuário (anunciante ou cliente);
