@@ -5,7 +5,7 @@ import { StyledMain } from './style';
 import { AiOutlineClose } from 'react-icons/ai';
 import { useState } from 'react';
 import { useCar, useLayout, useModal } from '../../hooks';
-import InputRange from '../../components/InputRange';
+// import InputRange from '../../components/InputRange';
 import GenericModal from '../../components/Modal/ModalGeneric';
 import PaginationComponent from '../../components/Pagination';
 
@@ -144,7 +144,7 @@ export const HomePage = () => {
                 ))}
               </div>
 
-              <InputRange
+              {/* <InputRange
                 title={'Km'}
                 minValue={carMinKm}
                 maxValue={carMaxKm}
@@ -162,7 +162,7 @@ export const HomePage = () => {
                 setMinValue={setCarMinPrice}
                 setMaxValue={setCarMaxPrice}
                 setIsFilterActive={setIsFilterActive}
-              />
+              /> */}
               {isFilterActive && (
                 <div className='filterButton__container'>
                   <button

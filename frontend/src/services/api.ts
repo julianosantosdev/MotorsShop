@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const api = axios.create({
   baseURL: 'https://motorsshop-tfzb.onrender.com',
-  timeout: 12000
+  timeout: 10000
 });
 
 export const apiKenzieCars = axios.create({
