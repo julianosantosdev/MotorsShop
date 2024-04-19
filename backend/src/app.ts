@@ -8,7 +8,6 @@ import { carRoutes } from './routes/cars.routes';
 import { loginRoutes } from './routes/login.routes';
 import { commentRoutes } from './routes/comments.routes';
 import { picturesRoutes } from './routes/pictures.routes';
-import job from './cronJob';
 
 const app: Application = express();
 app.use(express.json());
@@ -22,7 +21,5 @@ app.use('/login', loginRoutes);
 app.use('/pictures', picturesRoutes);
 
 app.use(handleErrors);
-
-job.start();
 
 export default app;
