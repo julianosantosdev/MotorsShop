@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'https://humble-drop-production.up.railway.app',
+  baseURL: 'https://motorsshop-tfzb.onrender.com',
   timeout: 10000
 });
 

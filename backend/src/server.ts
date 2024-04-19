@@ -1,6 +1,7 @@
-import app from "./app";
-import { AppDataSource } from "./data-source";
-import "dotenv/config";
+import app from './app';
+import job from './cronJob';
+import { AppDataSource } from './data-source';
+import 'dotenv/config';
 
 AppDataSource.initialize()
   .then(() => {
@@ -9,5 +10,6 @@ AppDataSource.initialize()
     app.listen(PORT, () => {
       console.log(runningMsg);
     });
+    job.start();
   })
   .catch((error) => console.log(error));
