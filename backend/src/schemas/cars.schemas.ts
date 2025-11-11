@@ -74,8 +74,8 @@ const carCompleteSchema = carResponseSchema.extend({
   }),
   comment: z.array(commentSchema.extend({
     user: z.object({
-    id: z.number(),
-    full_name: z.string(),
+      id: z.number(),
+      full_name: z.string(),
     })
   }))
 })
@@ -86,9 +86,7 @@ const carsListSchemaResponse = z.array(
   carResponseSchema.extend({
     user: ownerCarSchema.omit({
       password: true,
-      address: true,
       cpf: true,
-      updated: true,
       created_at: true,
       updated_at: true,
       birthdate: true
